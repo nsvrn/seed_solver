@@ -1,0 +1,5 @@
+numpy
+loguru
+ray
+mnemonic
+git+https://github.com/mcdallas/cryptotools.git@master#egg=cryptotools
