@@ -23,7 +23,7 @@ def get_mlists(seed, checksum, is_shuffled):
                 # set excl_list=words if you want to assume words don't repeat
                 w = wl.rand_word(excl_list=[])
             guess.append(w)
-            TRIED.append(guess)
+        TRIED.append(guess)
                 
 
     if is_shuffled: shuffle(guess)
