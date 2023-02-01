@@ -1,5 +1,6 @@
 ##### BIP39 seed solver
 
+- `TODO`: partition/optimize multi-processing
 - `Don't trust, verify` : potentially sub-optimal accuracy and performance 
 - Ref: [mnemonic seed](https://learnmeabitcoin.com/technical/mnemonic) | [hd-wallets](https://learnmeabitcoin.com/technical/hd-wallets) | [BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki)
 - Cryptography dependencies(included in `requirements.txt`): [cryptotools](https://github.com/mcdallas/cryptotools) | [mnemonic](https://github.com/trezor/python-mnemonic)
