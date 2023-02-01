@@ -21,5 +21,6 @@ pip install -r requirements.txt &&
 - Set `num_cpus`/`num_gpus` accordingly
 - Use `'?'` for missing words/checksum
 - Run: `python3 solver.py`
+- NOTE: if you get `ValueError: unsupported hash type ripemd160` error, refer [this](https://stackoverflow.com/questions/72409563/unsupported-hash-type-ripemd160-with-hashlib-in-python)
 
 ![alt solver](solver.png)
